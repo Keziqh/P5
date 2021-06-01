@@ -28,6 +28,11 @@ function displayCamera(camera) {
 
     cloneElt.getElementById('product__name').textContent = camera.name
     cloneElt.getElementById('description__product').textContent = camera.description
+    cloneElt.getElementById('product__price').textContent = camera.price
+    cloneElt.getElementById('product__lens1').textContent = camera.0
+    cloneElt.getElementById('product__lens2').textContent = camera.1
+    cloneElt.getElementById('product__lens3').textContent = camera.2
+
 
     document.getElementById('main').appendChild(cloneElt)
 }
