@@ -43,7 +43,16 @@ function displayCameras(camera) {
 
         `
 
+<<<<<<< HEAD
 }
+=======
+    cloneElt.getElementById('product__name').textContent = camera.name
+    cloneElt.getElementById('description__product').textContent = camera.description
+    cloneElt.getElementById('product__price').textContent = camera.price
+    cloneElt.getElementById('product__lens1').textContent = camera.
+    cloneElt.getElementById('product__lens2').textContent = camera.
+    cloneElt.getElementById('product__lens3').textContent = camera.
+>>>>>>> main
 
 
 function camerasPrices(x) {
